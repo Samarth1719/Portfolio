@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="font-sans">
+    <!--navbar section-->
+    <nav class="bg-[#90D1CA] p-4 shadow-lg sticky top-0 flex justify-between items-center z-50 flex-col md:flex-row">
+        <h1 class="text-xl font-bold">MyPortfolio</h1>
+
+        <ul class="flex gap-4 flex md:flex-row ">
+            <li><a href="#Home" class="hover:text-blue-900 hover:underline font-medium ">Home</a></li>
+            <li><a href="#about" class="hover:text-blue-900 hover:underline font-medium">About Me</a></li>
+            <li><a href="#project" class="hover:text-blue-900 hover:underline font-medium">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-900 hover:underline font-medium">contact</a></li>
+
+        </ul>
+    </nav>
+    <!--Home section-->
+    <section class=" p-3 flex justify-center " id="Home">
+        <div
+            class="bg-[#90D1CA] w-[500px] flex justify-center align-items mt-5 flex-col rounded p-2 shadow-xl rounded-lg">
+            <div class=" flex md:gap-10 bg-white p-2 rounded gap-9 ">
+                <div class="flex justify-center">
+                    <img src="me.jpg" class="md:w-28 w-32 rounded-full shadow-lg">
+                </div>
+                <div class="flex flex-col justify-center">
+                    <p class="text-center font-bold md:text-3xl text-2xl">Samarth Laxman Patil</p>
+                    <h2 class="text-center font-serif mt-1">Web Developer & UI/UX Designer</h2>
+                </div>
+            </div>
+            <div class="rounded mt-4">
+                <h1>Hello, I'm <b>Samarth Patil</b></h1>
+                <h2 class="mt-1">Front-End Web Developer</h2>
+                <p class="mt-1">I build responsive, user-friendly websites using HTML, Tailwind CSS.</p>
+                <h3 class="text-center mt-12 text-2xl font-bold transition duration-300 ease-in-out hover:scale-105">
+                    "Turning ideas into interactive web experiences."</h3>
+            </div>
+            <div class="w-full flex justify-center mt-5 mb-10">
+                <button
+                    class="flex justify-center mt-4 bg-[#129990] text-white px-2 py-2 rounded hover:bg-blue-800 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    <b><a href="#" download>Download Resume</a> </b></button>
+            </div>
+        </div>
+    </section>
+    <!--About me Section-->
+    <section class="mt-10 flex flex-col items-center justify-center  p-3 md:p-10 bg-gray-200 py-20 md:px-44" id="about">
+        <div
+            class=" w-full hover:shadow-lg  transition-transform duration-300 ease-in-out hover:scale-105 hover:rounded">
+            <p class="font-bold text-2xl">About Me:</p>
+            <p class="mt-4">I am a passionate web developer with a background in design and a deep interest in building
+                responsive and accessible websites. My journey started with simple HTML pages, and now I enjoy creating
+                full front-end applications.</p>
+        </div>
+
+        <div class="flex w-full mt-10 md:gap-10">
+            <p class="font-bold text-2xl">Skills:</p>
+            <div class="grid grid-cols-3 md:gap-4 mt-14 w-full gap-2">
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    c</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    c++</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    java</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    Python</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    DATABASE</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    HTML</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    CSS</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    JavaScript</div>
+                <div
+                    class="bg-[#FFF9E5] h-12 flex items-center justify-center  text-1xl shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                    tailwindcss</div>
+            </div>
+        </div>
+        <div class=" w-full mt-10">
+            <p class="font-bold text-2xl">Education & Experience:</p>
+            <div class=" mx-4 mt-6 border-l-4 border-blue-500 pl-4">
+                <p class="font-bold">Dimploma last year, Computer Engineering</p>
+                <p class=" text-gray-800">Sant Gajanan Maharaj Rural Polytechnic , Mahagaon</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class=" mt-10 flex py-20 justify-center gap-5 flex-col" id="project">
+        <div class="font-bold text-2xl">
+            <p class="text-center">Projects:</p>
+        </div>
+        <div class="flex gap-10 md:gap-20 justify-center flex-wrap mt-7">
+            <div
+                class="w-80 md:rotate-12 hover:rotate-0 md:w-72 h-80 p-4 bg-gray-200 shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                <p class="font-bold text-2xl text-gray-800">Godaddy Demo</p>
+                <img src="Capture.JPG" class="mt-4 rounded shadow-lg">
+                <p class="mt-4 text-sm text-gray-500">A responsive website built using HTML, CSS. It is static clone website</p>
+                <button
+                    class="mt-4 bg-blue-500 p-1 rounded font-bold text-white shadow-lg transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg"><a
+                        href="https://samarth1719.github.io/Godaddy-demo/">Github Link</a></button>
+            </div>
+            <div
+                class="w-80 md:w-72  h-80 p-4 bg-gray-200 shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+                <p class="font-bold text-2xl  text-gray-800">Hostinger Demo</p>
+                <img src="Capture2.JPG" class="mt-4 rounded shadow-lg">
+                <p class="mt-4 text-sm text-gray-500">A responsive website built using HTML, CSS. It is static clone website</p>
+
+            </div>
+            <div
+                class="w-80 md:w-72 md:-rotate-12 hover:rotate-0 h-80 p-4 bg-gray-200 shadow-lg rounded transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg overflow-hidden">
+                <p class="font-bold text-2xl  text-gray-800">Login Form</p>
+                <img src="Capture1.JPG" class="mt-4 rounded shadow-lg">
+                <p class="mt-4 text-sm text-gray-500">A responsive website built using HTML, CSS,JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="mt-10 flex px-6 py-20  bg-gray-200 flex-col md:px-44 lg:px-44" id="contact">
+        <div
+            class="bg-gray-300 p-3 rounded shadow-lg transition-transform duration-300 ease-in-out hover:scale-105  hover:shadow-lg">
+
+            <p class="font-bold text-2xl">Contact me:</p>
+            <form class="flex flex-col mt-5 gap-3">
+                <input type="text" placeholder="Name" class="h-10 rounded px-2 shadow-lg">
+                <input type="email" placeholder="Email" class="h-10 rounded px-2 shadow-lg">
+                <textarea placeholder="Message"
+                    class="w-full p-3 rounded border border-gray-300 h-32 shadow-lg"></textarea>
+                <button class="w-48 bg-blue-500 rounded text-white h-10 shadow-lg">Submit</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-6  font-light text-sm flex justify-center items-center">© 2025 Samarth Patil. All rights reserved.
+    </footer>
+</body>
+
+</html>
